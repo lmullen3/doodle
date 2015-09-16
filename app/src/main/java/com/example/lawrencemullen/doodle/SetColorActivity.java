@@ -7,12 +7,16 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
-public class SetColorActivity extends AppCompatActivity {
+/**
+ * @author Lawrence Mullen and Maddie Chilli CSC 303 - Fall 2015
+ */
+
+
+public class SetColorActivity extends Activity {
     private SeekBar AlphaBar;
     private SeekBar RedBar;
     private SeekBar GreenBar;

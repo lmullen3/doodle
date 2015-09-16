@@ -5,8 +5,10 @@ import android.graphics.Color;
 import android.graphics.Paint;
 
 /**
- * Created by lawrencemullen on 9/10/15.
+ * @author Lawrence Mullen and Maddie Chilli CSC 303 - Fall 2015
  */
+
+
 public class Line {
 
     private float x1, y1, x2,y2;

@@ -1,9 +1,7 @@
 package com.example.lawrencemullen.doodle;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -12,9 +10,12 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
+/**
+ * @author Lawrence Mullen and Maddie Chilli CSC 303 - Fall 2015
+ */
 
 
-public class SetWidthDialogActivity extends AppCompatActivity {
+public class SetWidthDialogActivity extends Activity {
 
     private SeekBar seekBar;
     private ImageView imageView;

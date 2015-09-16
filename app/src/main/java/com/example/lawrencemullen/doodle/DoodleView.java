@@ -10,7 +10,7 @@ import android.view.View;
 import java.util.ArrayList;
 
 /**
- * Created by lawrencemullen on 9/10/15.
+ * @author Lawrence Mullen and Maddie Chilli CSC 303 - Fall 2015
  */
 
 

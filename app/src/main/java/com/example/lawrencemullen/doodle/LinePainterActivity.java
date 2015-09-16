@@ -1,5 +1,5 @@
-package com.example.lawrencemullen.doodle;
 
+package com.example.lawrencemullen.doodle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,12 +7,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+/**
+ * @author Lawrence Mullen and Maddie Chilli CSC 303 - Fall 2015
+ */
+
+
 public class LinePainterActivity extends AppCompatActivity {
 
     private DoodleView doodleView;
 
     public final static int WIDTH_DIALOG = 1;
-    public final static int COLOR_DIALOG = 1;
+    public final static int COLOR_DIALOG = 2;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
